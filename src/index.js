@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import DataFetcher from "./components/DataFetcher";
+import App from "./components/App";
 
 
 
-ReactDOM.render(<DataFetcher />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

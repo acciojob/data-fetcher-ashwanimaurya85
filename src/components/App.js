@@ -4,7 +4,7 @@ import './../styles/App.css';
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function DataFetcher() {
+function APP() {
   const [data, setData] = useState("");
   const API_URL = "https://dummyjson.com/products";
 
@@ -28,4 +28,4 @@ function DataFetcher() {
   );
 }
 
-export default DataFetcher;
+export default App;
